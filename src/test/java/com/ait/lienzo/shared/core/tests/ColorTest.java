@@ -69,6 +69,7 @@ public class ColorTest
 
         assertNull(Color.hex2RGB("#XYZ"));
 
+        org.junit.Assert.fail("Hemos petao!");
     }
 
     @Test

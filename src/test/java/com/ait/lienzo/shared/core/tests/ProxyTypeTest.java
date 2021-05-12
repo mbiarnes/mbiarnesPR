@@ -13,7 +13,7 @@ public class ProxyTypeTest {
     {
         ProxyTypeExtension foo = ProxyTypeExtension.FOO;
         assertFalse(foo.equals(null));
-        assertTrue(foo.equals(foo));
+        assertTrue(foo.equals(fo));
 
         ProxyTypeExtension bar = ProxyTypeExtension.BAR;
         assertFalse(foo.equals(bar));

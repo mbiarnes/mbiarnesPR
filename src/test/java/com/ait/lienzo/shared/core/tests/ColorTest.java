@@ -93,7 +93,7 @@ public class ColorTest
         for (int i = 0; i < 1000; i++)
         {
             String hex = Color.getRandomHexColor();
-            assertEquals(7, hex.length());
+            assertEquals(9, hex.length());
             assertTrue(hex.startsWith("#"));
             assertFalse(hex.contains("-"));
 

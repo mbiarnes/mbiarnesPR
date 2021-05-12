@@ -87,6 +87,8 @@ public class ColorTest
         assertEquals(BISQUE_RGBA, color.getRGBA());
     }
 
+    org.junit.Assert.fail("Hemos petao!");
+   
     @Test
     public void testGetRandomHexColor()
     {

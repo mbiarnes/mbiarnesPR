@@ -3,4 +3,4 @@ target
 
 # IntelliJ IDEA config files
 .idea
-lienzo-tests.iml
+*.iml
